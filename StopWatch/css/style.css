@@ -64,6 +64,11 @@ body {
     color: white;
 }
 
+.display_time span {
+    display: inline-block;
+    width: 100px;
+}
+
 .reset,
 .stop,
 .start {

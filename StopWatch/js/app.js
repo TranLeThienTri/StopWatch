@@ -12,7 +12,7 @@ let btnReset = document.querySelector('.reset');
 let Interval;
 btnStart.addEventListener('click', () => {
     clearInterval(Interval);
-    Interval = setInterval(startTime, 100);
+    Interval = setInterval(startTime, 1000);
 });
 
 btnStop.addEventListener('click', () => {
